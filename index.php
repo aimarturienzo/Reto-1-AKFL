@@ -33,7 +33,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		indexLabelFontSize: 16,
 		indexLabel: "{label} - #percent%",
 		yValueFormatString: "฿#,##0",
-		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK);//kkjk ?>
 	}]
 });
 chart.render();
